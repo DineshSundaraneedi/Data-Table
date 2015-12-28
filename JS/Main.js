@@ -1,11 +1,10 @@
 function fnAddCol() {
     //how to reffer html??
-    document.getElementById('AddCols').innerHtml = "AddCol.html";
+    document.getElementById('pu').style.display = 'block';
 }
 
 function Close() {
-
-    document.getElementById('AddCols').innerHtml = "";
+    document.getElementById('pu').style.display = 'none';
 }
 
 
